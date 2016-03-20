@@ -123,12 +123,11 @@ int getopt(string &str, vector <vector<string>> &Rules) //if in input string the
 	string temp_str;
 	bite_off(str, temp_str);  //parser of the input_string by " " or " = " or "="
 	
-	uint i;
 	do
 	{
 		int k = -1;
 		bool already_bite_off = false;    //the flag shows the result of bite_off()
-		for (i = 0; i < Rules.size(); ++i)
+		for (uint i = 0; i < Rules.size(); ++i)
 		{
 			if (temp_str == Rules[i][1])
 			{

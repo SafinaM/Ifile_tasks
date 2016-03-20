@@ -1,7 +1,7 @@
-//Writ simple analof of getopt.
+//Write simple analog of getopt.
 
 
-//Testing variants
+//Testing variants:
 //1) without help, succsess
 //--my-boolean-option = true --my-option-name my-option-name --my-option-fval 0.7 --my-option-ival=11
 //

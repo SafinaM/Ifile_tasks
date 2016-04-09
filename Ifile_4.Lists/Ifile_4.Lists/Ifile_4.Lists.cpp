@@ -121,7 +121,7 @@ public:
 
 		for (uint i = 0; i < N / 2+1; i +=2)
 		{
-			auto it = tempVec.begin();       //VS gives the mistake: the itarator is not incrementable
+			auto it = tempVec.begin();       //VS gives the mistake: the iterator is not incrementable
 			advance(it, i);
 			tempVec.insert(++it, tempVec.back());
 			tempVec.pop_back();
